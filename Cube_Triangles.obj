@@ -1,0 +1,38 @@
+####
+# Object Cube
+#
+# Vertices: 8
+# Faces: 12
+#
+####
+v 15.0 -15.0 15.0
+v 15.0 15.0 15.0
+v -15.0 15.0 15.0
+v -15.0 -15.0 15.0
+v 15.0 -15.0 -15.0
+v 15.0 15.0 -15.0
+v -15.0 15.0 -15.0
+v -15.0 -15.0 -15.0
+# 8 vertices
+
+# Front Face
+f 1 2 3
+f 3 4 1
+# Right Face
+f 2 1 5
+f 5 6 2
+# Back Face
+f 8 7 6
+f 6 5 8
+# Left Face
+f 7 8 3
+f 8 4 3
+# Top Face
+f 6 7 2
+f 3 2 7
+# Bottom Face
+f 4 8 1
+f 5 1 8
+# 12 faces, 0 coords texture
+
+# End of File
